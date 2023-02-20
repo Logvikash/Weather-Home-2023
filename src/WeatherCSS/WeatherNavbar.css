@@ -1,0 +1,36 @@
+.background {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  margin: 110px;
+}
+
+.brand-custom {
+  font-size: 24px;
+}
+
+.brand-icon {
+  color: #ff9800;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: white;
+}
+
+.input-field {
+  border-radius: 20px;
+  border-color: #ff9800;
+  color: #ff9800;
+  margin-right: 5px;
+  width: 150px;
+}
+
+.spacer {
+  width: 10px;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #6481f7ea 0%, #f75b5b 100%);
+}
