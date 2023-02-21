@@ -18,7 +18,7 @@ const WeatherForecast = ({ city, state }) => {
   return (
     <Container>
       <Card className="weather-forecast-card">
-        <Card.Header>7-Day Weather Forecast</Card.Header>
+        <Card.Header>5-Day Weather Forecast</Card.Header>
         <Card.Body className="cardBodystyle">
           <Row>
             {forecastData.map((forecast, index) => (                       //  using map function to show data in a loop  

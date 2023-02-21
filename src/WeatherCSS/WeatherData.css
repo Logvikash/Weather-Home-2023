@@ -17,26 +17,35 @@
   color: #1111e4;
 }
 .weather-humidity,
-  .weather-wind,
-  .weather-pressure {
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-    color: #181616;
-  }
-  .weather-location {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #ee4163;
-    
-  }
-  
-  .weather-time {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-   
-  }
-  .weather-coordinates {
-    font-size: 1rem;
-  }
+.weather-wind,
+.weather-pressure {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: #181616;
+}
+.weather-location {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ee4163;
+  padding-top: 80px;
+}
+
+.weather-time {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.weather-coordinates {
+  font-size: 1rem;
+}
+.weather-temperature,
+.weather-description,
+.weather-humidity,
+.weather-wind {
+ padding-left: 20px;
+}
+
+.weather-data-container{
+  margin-left: 10px;
+}

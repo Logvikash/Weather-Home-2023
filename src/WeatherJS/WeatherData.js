@@ -11,7 +11,7 @@ const WeatherData = ({ data }) => {
   
   return (
     <div className="weather-data-container">
-      <Card className="weather-card" style={{width: "350px"}}>
+      <Card className="weather-card" style={{width: "1270px"}}>
         <Card.Body>
           <Row>
             <Col xs={12} md={6} className="weather-data-left">
